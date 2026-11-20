@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1280" role="img" aria-labelledby="title">
+  <title id="title">Veyra logo</title>
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="72%" y2="100%" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff0b4"/>
+      <stop offset=".23" stop-color="#c39149"/>
+      <stop offset=".44" stop-color="#76501f"/>
+      <stop offset=".64" stop-color="#e7c27a"/>
+      <stop offset="1" stop-color="#8d6128"/>
+    </linearGradient>
+    <linearGradient id="bevel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0" stop-color="#94652e"/>
+      <stop offset=".28" stop-color="#f4d894"/>
+      <stop offset=".56" stop-color="#9e7035"/>
+      <stop offset=".8" stop-color="#ddad61"/>
+      <stop offset="1" stop-color="#59371c"/>
+    </linearGradient>
+    <linearGradient id="amethyst" x1="0%" y1="0%" x2="75%" y2="100%">
+      <stop offset="0" stop-color="#321044"/>
+      <stop offset=".38" stop-color="#8f37c4"/>
+      <stop offset=".6" stop-color="#4a1267"/>
+      <stop offset="1" stop-color="#9a3ac0"/>
+    </linearGradient>
+    <radialGradient id="crystal" cx="43%" cy="42%" r="68%">
+      <stop offset="0" stop-color="#eab4ff"/>
+      <stop offset=".47" stop-color="#b451ec"/>
+      <stop offset="1" stop-color="#4b1168"/>
+    </radialGradient>
+    <clipPath id="facets"><path d="M163 243 362 258c-17 34-12 63 5 91l259 500 259-500c17-28 22-57 5-91l199-15c-40 29-64 57-90 101L626 1113 253 344c-26-44-50-72-90-101Z"/></clipPath>
+  </defs>
+
+  <path fill="url(#gold)" stroke="#452817" stroke-width="5" stroke-linejoin="round" d="M62 201 399 224c-34 42-49 77-21 130l248 447 248-447c28-53 13-88-21-130l337-23c-93 51-141 94-178 163l-386 794-386-794c-37-69-85-112-178-163Z"/>
+  <path fill="url(#bevel)" stroke="#efcb80" stroke-width="3" stroke-linejoin="round" d="m101 212 285 22c-32 43-43 78-17 125l257 465 257-465c26-47 15-82-17-125l285-22c-77 46-117 86-151 149l-374 774-374-774c-34-63-74-103-151-149Z"/>
+  <path d="M163 243 362 258c-17 34-12 63 5 91l259 500 259-500c17-28 22-57 5-91l199-15c-40 29-64 57-90 101L626 1113 253 344c-26-44-50-72-90-101Z" fill="url(#amethyst)" stroke="#4d261e" stroke-width="5" stroke-linejoin="round"/>
+  <g clip-path="url(#facets)">
+    <path fill="#bd58ec" d="m163 243 235 171-105 111Z"/>
+    <path fill="#642084" d="m163 243 199 15 36 156Z"/>
+    <path fill="#38114f" d="m293 525 105-111 48 192Z"/>
+    <path fill="#9332b8" d="m293 525 153 81 139 149-166 27Z"/>
+    <path fill="#5b1b78" d="m419 782 166-27 41 94-98 114Z"/>
+    <path fill="#b746d9" d="m528 963 98-114v264Z"/>
+    <path fill="#662084" d="m1089 243-199 15-45 173Z"/>
+    <path fill="#b754e5" d="m1089 243-244 188-93 190 210-137Z"/>
+    <path fill="#421258" d="m962 484-210 137 114 103Z"/>
+    <path fill="#8624a8" d="m866 724-114-103-126 228 91 121Z"/>
+    <path fill="#56136f" d="M626 849v264l91-143Z"/>
+  </g>
+  <path fill="none" stroke="#ebc880" stroke-opacity=".72" stroke-width="3" stroke-linecap="round" d="M94 207 384 229m484 0 290-22M374 356l252 456 252-456"/>
+  <path fill="url(#gold)" stroke="#452817" stroke-width="5" stroke-linejoin="round" d="m628 210 96 163-96 151-96-151Z"/>
+  <path fill="url(#crystal)" stroke="#f0cb80" stroke-width="3" stroke-linejoin="round" d="m628 231 80 142-80 127-80-127Z"/>
+  <path fill="#f1bcff" d="m628 231-37 141-43 1Zm-37 141 37-22 38 23-38 47Z"/>
+  <path fill="#9838c0" d="m628 231 80 142h-42l-38-23Z"/>
+  <path fill="#691b8d" d="m666 373 42 0-80 127 0-80Z"/>
+  <path fill="#993cd0" d="m548 373 43-1 37 48v80Z"/>
+</svg>
