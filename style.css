@@ -37,8 +37,8 @@ h1, h2 {
 
 h1 {
   margin: .4rem 0 .85rem;
-  font-size: clamp(4.75rem, 14vw, 8.5rem);
-  letter-spacing: -.065em;
+  font-size: clamp(2.85rem, 10vw, 6.5rem);
+  letter-spacing: -.055em;
 }
 
 .intro {

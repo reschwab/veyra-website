@@ -1,6 +1,6 @@
 # Veyra website
 
-Public landing page for the Veyra addon suite at [veyra.rschwab.nl](https://veyra.rschwab.nl/).
+Public landing page for the Veyra Forever addon suite at [veyra.rschwab.nl](https://veyra.rschwab.nl/).
 
 ## Local preview
 
@@ -12,4 +12,4 @@ Publish `index.html` and `style.css` to the `veyra.rschwab.nl` document root. Th
 
 ## ForeverDB
 
-[ForeverDB.net](https://foreverdb.net/) is the planned data source for quest and vendor reference pins in Veyra Notes for World of Warcraft: Forever. Keep a visible source link wherever ForeverDB data is displayed.
+[ForeverDB.net](https://foreverdb.net/) is a planned source of game data to enrich the existing Veyra Forever addon. Potential uses include item details in tooltips and quest locations in the quest tracker or navigation. Keep a visible source link wherever ForeverDB data is displayed.
