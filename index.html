@@ -5,18 +5,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Veyra Forever is a modular addon suite for World of Warcraft: Forever with customizable action bars, unit frames, tooltips and quest tracking.">
   <link rel="canonical" href="https://veyra.rschwab.nl/">
+  <link rel="icon" href="assets/veyra-logo.png" type="image/png">
   <link rel="stylesheet" href="style.css">
   <title>Veyra Forever · World of Warcraft Addons</title>
 </head>
 <body>
   <main>
     <header class="hero">
-      <p class="platform">World of Warcraft: Forever</p>
-      <h1>Veyra Forever</h1>
-      <p class="intro">A modular addon suite for customizing action bars, unit frames, the minimap and tooltips, with a quest tracker and in-game quest navigation.</p>
+      <div>
+        <img class="veyra-logo" src="assets/veyra-logo.png" width="256" height="256" alt="">
+        <p class="platform">World of Warcraft: Forever addon suite</p>
+        <h1>Veyra Forever</h1>
+        <p class="intro">Customize your action bars, unit frames, minimap and tooltips, and find your way with an in-game quest tracker and navigation.</p>
+      </div>
+      <a class="game-logo" href="https://worldofwarcraft.blizzard.com/en-us/forever/">
+        <img src="assets/wow-forever.webp" width="440" height="359" alt="World of Warcraft: Forever official website">
+      </a>
     </header>
 
-    <section aria-labelledby="game-data">
+    <section class="gallery" aria-labelledby="screenshots">
+      <h2 id="screenshots">Veyra in game</h2>
+      <div class="gallery-grid">
+        <figure class="gallery-feature">
+          <a href="assets/veyra-interface.webp" aria-label="Open full-size Veyra gameplay screenshot">
+            <img src="assets/veyra-interface.webp" width="2560" height="1440" alt="The Veyra action bars, unit frames, minimap and quest tracker in Grommash Hold">
+          </a>
+          <figcaption>Gameplay interface</figcaption>
+        </figure>
+        <figure>
+          <a href="assets/veyra-settings.webp" aria-label="Open full-size Veyra settings screenshot">
+            <img src="assets/veyra-settings.webp" width="2560" height="1440" loading="lazy" alt="Veyra Core settings with a sidebar for the addon modules">
+          </a>
+          <figcaption>Module settings</figcaption>
+        </figure>
+        <figure>
+          <a href="assets/veyra-edit-mode.webp" aria-label="Open full-size Veyra Edit Mode screenshot">
+            <img src="assets/veyra-edit-mode.webp" width="2560" height="1440" loading="lazy" alt="Veyra Edit Mode with a placement grid and labeled frames">
+          </a>
+          <figcaption>Edit Mode</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="data-source" aria-labelledby="game-data">
       <h2 id="game-data">Game data from ForeverDB</h2>
       <p>We plan to use ForeverDB to enrich the existing addon with reference data. Possible uses include adding item details to tooltips and showing quest locations in the quest tracker or its navigation.</p>
       <p class="credit">Planned data source <a href="https://foreverdb.net/">ForeverDB.net</a></p>
