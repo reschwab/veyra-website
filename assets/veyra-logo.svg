@@ -9,10 +9,13 @@
       <stop offset="1" stop-color="#8d6128"/>
     </linearGradient>
     <linearGradient id="bevel" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0" stop-color="#94652e"/>
-      <stop offset=".28" stop-color="#f4d894"/>
-      <stop offset=".56" stop-color="#9e7035"/>
-      <stop offset=".8" stop-color="#ddad61"/>
+      <stop offset="0" stop-color="#b78645"/>
+      <stop offset=".16" stop-color="#fff0bd"/>
+      <stop offset=".28" stop-color="#c08a4d"/>
+      <stop offset=".52" stop-color="#7b501f"/>
+      <stop offset=".64" stop-color="#f2cf86"/>
+      <stop offset=".79" stop-color="#a46c33"/>
+      <stop offset=".9" stop-color="#d4a05c"/>
       <stop offset="1" stop-color="#59371c"/>
     </linearGradient>
     <linearGradient id="amethyst" x1="0%" y1="0%" x2="75%" y2="100%">
@@ -26,6 +29,31 @@
       <stop offset=".47" stop-color="#b451ec"/>
       <stop offset="1" stop-color="#4b1168"/>
     </radialGradient>
+    <linearGradient id="facetLit" x1="14%" y1="0%" x2="86%" y2="100%">
+      <stop offset="0" stop-color="#351044"/>
+      <stop offset=".43" stop-color="#6c1b99"/>
+      <stop offset=".78" stop-color="#b644ed"/>
+      <stop offset="1" stop-color="#ef9bff"/>
+    </linearGradient>
+    <linearGradient id="facetLitReverse" href="#facetLit" x1="94%" y1="7%" x2="13%" y2="93%"/>
+    <linearGradient id="facetShade" x1="8%" y1="18%" x2="92%" y2="85%">
+      <stop offset="0" stop-color="#22082f"/>
+      <stop offset=".58" stop-color="#4f136d"/>
+      <stop offset="1" stop-color="#9632bf"/>
+    </linearGradient>
+    <linearGradient id="diamondFace" x1="15%" y1="0%" x2="84%" y2="85%">
+      <stop offset="0" stop-color="#641a90"/>
+      <stop offset=".48" stop-color="#a643d4"/>
+      <stop offset=".83" stop-color="#ed98ff"/>
+      <stop offset="1" stop-color="#fff0ff"/>
+    </linearGradient>
+    <linearGradient id="goldGlint" x1="0" y1="236" x2="0" y2="1080" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff1cb"/>
+      <stop offset=".13" stop-color="#fff1cb" stop-opacity=".08"/>
+      <stop offset=".52" stop-color="#ffe3a6" stop-opacity=".9"/>
+      <stop offset=".76" stop-color="#ffe3a6" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#fff1cb" stop-opacity=".75"/>
+    </linearGradient>
     <clipPath id="facets"><path d="M163 243 362 258c-17 34-12 63 5 91l259 500 259-500c17-28 22-57 5-91l199-15c-40 29-64 57-90 101L626 1113 253 344c-26-44-50-72-90-101Z"/></clipPath>
   </defs>
 
@@ -33,23 +61,26 @@
   <path fill="url(#bevel)" stroke="#efcb80" stroke-width="3" stroke-linejoin="round" d="m101 212 285 22c-32 43-43 78-17 125l257 465 257-465c26-47 15-82-17-125l285-22c-77 46-117 86-151 149l-374 774-374-774c-34-63-74-103-151-149Z"/>
   <path d="M163 243 362 258c-17 34-12 63 5 91l259 500 259-500c17-28 22-57 5-91l199-15c-40 29-64 57-90 101L626 1113 253 344c-26-44-50-72-90-101Z" fill="url(#amethyst)" stroke="#4d261e" stroke-width="5" stroke-linejoin="round"/>
   <g clip-path="url(#facets)">
-    <path fill="#bd58ec" d="m163 243 235 171-105 111Z"/>
-    <path fill="#642084" d="m163 243 199 15 36 156Z"/>
-    <path fill="#38114f" d="m293 525 105-111 48 192Z"/>
-    <path fill="#9332b8" d="m293 525 153 81 139 149-166 27Z"/>
-    <path fill="#5b1b78" d="m419 782 166-27 41 94-98 114Z"/>
-    <path fill="#b746d9" d="m528 963 98-114v264Z"/>
-    <path fill="#662084" d="m1089 243-199 15-45 173Z"/>
-    <path fill="#b754e5" d="m1089 243-244 188-93 190 210-137Z"/>
-    <path fill="#421258" d="m962 484-210 137 114 103Z"/>
-    <path fill="#8624a8" d="m866 724-114-103-126 228 91 121Z"/>
-    <path fill="#56136f" d="M626 849v264l91-143Z"/>
+    <path fill="url(#facetLit)" d="m163 243 235 171-105 111Z"/>
+    <path fill="url(#facetShade)" d="m163 243 199 15 36 156Z"/>
+    <path fill="url(#facetShade)" d="m293 525 105-111 48 192Z"/>
+    <path fill="url(#facetLit)" d="m293 525 153 81 139 149-166 27Z"/>
+    <path fill="url(#facetShade)" d="m419 782 166-27 41 94-98 114Z"/>
+    <path fill="url(#facetLit)" d="m528 963 98-114v264Z"/>
+    <path fill="url(#facetShade)" d="m1089 243-199 15-45 173Z"/>
+    <path fill="url(#facetLitReverse)" d="m1089 243-244 188-93 190 210-137Z"/>
+    <path fill="url(#facetShade)" d="m962 484-210 137 114 103Z"/>
+    <path fill="url(#facetLitReverse)" d="m866 724-114-103-126 228 91 121Z"/>
+    <path fill="url(#facetShade)" d="M626 849v264l91-143Z"/>
+    <path fill="none" stroke="#ef9bff" stroke-opacity=".37" stroke-width="2" d="m163 243 235 171-105 111m0 0 153 81 139 149m504-512L845 431l-93 190 210-137M626 849v264"/>
   </g>
   <path fill="none" stroke="#ebc880" stroke-opacity=".72" stroke-width="3" stroke-linecap="round" d="M94 207 384 229m484 0 290-22M374 356l252 456 252-456"/>
+  <path fill="none" stroke="url(#goldGlint)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" d="m114 215 267 20m490 0 267-20M173 246c40 28 63 56 88 101l365 770 365-770c25-45 48-73 88-101"/>
   <path fill="url(#gold)" stroke="#452817" stroke-width="5" stroke-linejoin="round" d="m628 210 96 163-96 151-96-151Z"/>
   <path fill="url(#crystal)" stroke="#f0cb80" stroke-width="3" stroke-linejoin="round" d="m628 231 80 142-80 127-80-127Z"/>
-  <path fill="#f1bcff" d="m628 231-37 141-43 1Zm-37 141 37-22 38 23-38 47Z"/>
-  <path fill="#9838c0" d="m628 231 80 142h-42l-38-23Z"/>
-  <path fill="#691b8d" d="m666 373 42 0-80 127 0-80Z"/>
-  <path fill="#993cd0" d="m548 373 43-1 37 48v80Z"/>
+  <path fill="url(#diamondFace)" d="m628 231-37 141-43 1Zm-37 141 37-22 38 23-38 47Z"/>
+  <path fill="url(#facetShade)" d="m628 231 80 142h-42l-38-23Z"/>
+  <path fill="url(#facetShade)" d="m666 373 42 0-80 127 0-80Z"/>
+  <path fill="url(#facetLit)" d="m548 373 43-1 37 48v80Z"/>
+  <path fill="none" stroke="#ffd3ff" stroke-opacity=".75" stroke-width="3" stroke-linecap="round" d="m628 233-37 139-41 1m41-1 37 48"/>
 </svg>
